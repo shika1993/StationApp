@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "city-4510433_1280.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "city-4510433_1280-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "city-4510433_1280-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

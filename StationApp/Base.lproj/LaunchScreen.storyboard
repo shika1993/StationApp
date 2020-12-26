@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="tbn-Co-Gy7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="city" translatesAutoresizingMaskIntoConstraints="NO" id="rR0-Ny-HL2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QET-sb-JFX">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="X4m-bm-gLk">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="お出かけの思い出を残そう！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UOc-Lc-1cg">
+                                            <rect key="frame" x="0.0" y="262.5" width="414" height="29"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="StationRally" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Et6-XZ-43B">
+                                            <rect key="frame" x="0.0" y="140" width="414" height="62.5"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="52"/>
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Et6-XZ-43B" secondAttribute="trailing" id="Bav-pm-zZA"/>
+                                        <constraint firstItem="Et6-XZ-43B" firstAttribute="top" secondItem="X4m-bm-gLk" secondAttribute="top" constant="140" id="F8U-Xr-jzu"/>
+                                        <constraint firstItem="Et6-XZ-43B" firstAttribute="leading" secondItem="X4m-bm-gLk" secondAttribute="leading" id="b6x-uc-12s"/>
+                                        <constraint firstItem="UOc-Lc-1cg" firstAttribute="top" secondItem="X4m-bm-gLk" secondAttribute="top" constant="262.5" id="dyJ-PO-w1o"/>
+                                        <constraint firstAttribute="trailing" secondItem="UOc-Lc-1cg" secondAttribute="trailing" id="q4P-sp-zSu"/>
+                                        <constraint firstItem="UOc-Lc-1cg" firstAttribute="leading" secondItem="X4m-bm-gLk" secondAttribute="leading" id="yQd-2j-KrG"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="systemChromeMaterialLight"/>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rR0-Ny-HL2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="3uO-Ff-gGx"/>
+                            <constraint firstItem="rR0-Ny-HL2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="auZ-4r-fOT"/>
+                            <constraint firstItem="QET-sb-JFX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="f4I-j2-ZiU"/>
+                            <constraint firstAttribute="bottom" secondItem="QET-sb-JFX" secondAttribute="bottom" id="j92-A6-W8Z"/>
+                            <constraint firstItem="QET-sb-JFX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t8W-nh-dOt"/>
+                            <constraint firstAttribute="bottom" secondItem="rR0-Ny-HL2" secondAttribute="bottom" id="u3z-4c-Xoz"/>
+                            <constraint firstItem="rR0-Ny-HL2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wOK-sh-cZa"/>
+                            <constraint firstItem="QET-sb-JFX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="yEI-cu-cew"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="city" width="426" height="640"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

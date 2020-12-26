@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "ログイン"; ObjectID = "EUn-V5-BcS"; */
+"EUn-V5-BcS.normalTitle" = "ログイン";
+
+/* Class = "UILabel"; text = "Subtitle of App"; ObjectID = "SBL-v8-13R"; */
+"SBL-v8-13R.text" = "Subtitle of App";
+
+/* Class = "UILabel"; text = "Title of App"; ObjectID = "agb-wP-Jwt"; */
+"agb-wP-Jwt.text" = "Title of App";
+
+/* Class = "UIButton"; normalTitle = "新規登録"; ObjectID = "pRK-ej-5wi"; */
+"pRK-ej-5wi.normalTitle" = "新規登録";
